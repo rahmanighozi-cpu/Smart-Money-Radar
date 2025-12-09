@@ -1,0 +1,45 @@
+/* Main Layout & Dark Theme */
+.stApp {
+    background-color: #050505;
+    background-image: radial-gradient(circle at 50% 0%, #1a1c29 0%, #050505 70%);
+    color: #e0e0e0;
+}
+
+/* Sidebar Styling */
+section[data-testid="stSidebar"] {
+    background-color: #0a0a0a;
+    border-right: 1px solid #333;
+}
+
+/* Glassmorphism Cards */
+div.css-1r6slb0, div.stMetric {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Metric Values */
+[data-testid="stMetricValue"] {
+    font-size: 24px;
+    color: #00f2ea; /* Neon Cyan */
+    font-weight: 700;
+}
+
+/* Tables */
+div.stDataFrame {
+    border: 1px solid #333;
+    border-radius: 8px;
+}
+
+/* Custom Alert/Toast */
+.toast-popup {
+    background-color: #1e1e1e;
+    border-left: 5px solid #00f2ea;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 10px;
+}
